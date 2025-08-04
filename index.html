@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>Leilão Prático - Em Construção</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leilão Prático - Plataforma de Leilões Inteligente</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href__="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-  <h1>Site em construção!</h1>
-  <p>A plataforma Leilão Prático estará no ar em breve.</p>
+<body class="bg-gray-50">
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                     <div class="bg-blue-600 w-10 h-10 rounded-lg flex items-center justify-center">
+                        <span class="text-white font-bold text-sm">LP</span>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900">Leilão Prático</h1>
+                        <p class="text-xs text-blue-600 font-semibold">Sua Vantagem Inteligente</p>
+                    </div>
+                </div>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href__="#" class="text-gray-700 hover:text-blue-600 font-medium">Buscar Imóveis</a>
+                    <a href__="#" class="text-gray-700 hover:text-blue-600 font-medium">Veículos</a>
+                    <a href__="#" class="text-gray-700 hover:text-blue-600 font-medium">Calculadora</a>
+                    <a href__="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">Ver Planos</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+      <section class="bg-gradient-to-r from-blue-900 to-purple-900 text-white py-20">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 class="text-4xl md:text-6xl font-bold mb-6">
+            A Vantagem Inteligente em Leilões
+          </h1>
+          <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            Encontre as melhores oportunidades de leilões de imóveis e veículos com o poder da Inteligência Artificial
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href__="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg flex items-center justify-center">
+                <i class="fas fa-building mr-2"></i>
+                Buscar Imóveis
+            </a>
+            <a href__="#" class="border-2 border-white hover:bg-white hover:text-blue-900 text-white font-bold py-4 px-8 rounded-lg text-lg flex items-center justify-center">
+                <i class="fas fa-car mr-2"></i>
+                Buscar Veículos
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div><p class="text-3xl md:text-4xl font-bold text-blue-700">R$ 89M+</p><p class="text-sm md:text-base text-gray-600 mt-1">Economia gerada</p></div>
+            <div><p class="text-3xl md:text-4xl font-bold text-blue-700">15.247+</p><p class="text-sm md:text-base text-gray-600 mt-1">Clientes satisfeitos</p></div>
+            <div><p class="text-3xl md:text-4xl font-bold text-blue-700">98%</p><p class="text-sm md:text-base text-gray-600 mt-1">Taxa de sucesso</p></div>
+            <div><p class="text-3xl md:text-4xl font-bold text-blue-700">300+</p><p class="text-sm md:text-base text-gray-600 mt-1">Fontes monitoradas</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2025 Leilão Prático. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
